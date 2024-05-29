@@ -76,7 +76,7 @@ const VolunteerForm = () => {
 
   return (
     <div className="flex flex-col items-center justify-between p-24">
-      <h1 className="font-semibold text-3xl py-8">Cadastro de Voluntários</h1>
+      <h1 className="font-bold text-white text-3xl py-8">Cadastro de Voluntários</h1>
       <Form {...form} >
         <form onSubmit={form.handleSubmit(handleSubmit)} className="max-w-md w-full flex flex-col gap-4 text-white">
           <FormField
@@ -266,7 +266,7 @@ const VolunteerForm = () => {
             }}
           />
 
-          <Button type="submit" className="w-full py-8 my-6 shadow-lg shadow-black">Enviar</Button>
+          <Button type="submit" className="w-full h-fit  text-white hover:bg-transparent p-6 border shadow-black shadow-mdr">Enviar</Button>
         </form>
       </Form>
     </div >
